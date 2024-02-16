@@ -36,7 +36,7 @@ public class Placement{
                     L();
                     break;
                 case '2':
-                    N();
+                    Program.EmptyPlacements.Add(N());
                     break;
                 case 'e' or 'E':
                     MExit = true;
@@ -66,16 +66,16 @@ public class Placement{
         }
         select = Console.ReadKey(true).KeyChar;
     }
-    private static void N()
+    public static Placement N()
     {
-        Console.Write("Création d'un nouvel emplacement vide\nHall:");
+        Console.Write("Création d'un nouvel emplacement\nHall:");
         string H = Console.ReadLine() ?? "";
         Console.Write("N° d'emplacement:");
         string N = Console.ReadLine() ?? "";
         Console.Write("Surface:");
         Double S = Convert.ToDouble(Console.ReadLine() ?? "0");
 
-        Program.EmptyPlacements.Add(new Placement(H, N, S));
+        return new Placement(H, N, S);
     }
 
 }

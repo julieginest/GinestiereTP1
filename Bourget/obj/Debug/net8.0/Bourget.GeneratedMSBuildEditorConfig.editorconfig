@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bourget
-build_property.ProjectDir = C:\Users\Administrator\Dev\C#\Bourget\
+build_property.ProjectDir = C:\Users\Administrator\Dev\C#\GinestiereTP1\Bourget\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Dev\\C#\\Bourget\\Bourget.csproj": {}
+    "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Bourget.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Dev\\C#\\Bourget\\Bourget.csproj": {
+    "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Bourget.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Dev\\C#\\Bourget\\Bourget.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Bourget.csproj",
         "projectName": "Bourget",
-        "projectPath": "C:\\Users\\Administrator\\Dev\\C#\\Bourget\\Bourget.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Bourget.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Dev\\C#\\Bourget\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

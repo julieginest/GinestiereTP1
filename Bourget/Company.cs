@@ -47,6 +47,22 @@ public class Company{
         }
         MExit = false;
     }
-    private static void L() { }
-    private static void N() { }
+    private static void L() {
+            Console.WriteLine("SIRET\tNom\tHall\tParcelle\tSurface");
+        foreach(Company C in Program.CompaniesList)
+        {
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine(C.SIRET+"\t"+C.name+"\t"+C.placement.Hall +"\t"+ C.placement.Parcel+ "\t" + C.placement.Surface+" m²");
+        }
+        select = Console.ReadKey(true).KeyChar;
+    }
+    private static void N() {
+        Console.Write("Création d'un nouvel emplacement vide\nSIRET: ");
+        string S = Console.ReadLine() ?? "";
+        Console.Write("Nom: ");
+        string N = Console.ReadLine() ?? "";
+        Placement P = Placement.N();
+
+        Program.CompaniesList.Add(new Company(S, N, P));
+    }
 }
