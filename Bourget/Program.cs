@@ -12,10 +12,7 @@
 
 
 
-    public static void M_Companies()
-    {
-        
-    }
+
     static void Main(string[] args)
     {
         while (!MExit)

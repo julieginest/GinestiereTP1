@@ -49,7 +49,7 @@ public class Placement{
         }
         MExit = false;
     }
-    private static void L()
+    public static void L()
     {
         if (Program.EmptyPlacements.Count > 0)
         {
@@ -59,12 +59,13 @@ public class Placement{
                 Console.WriteLine("----------------------------------------");
                 Console.WriteLine(P.hall + "\t" + P.parcel + "\t" + P.surface + " m²");
             }
+        select = Console.ReadKey(true).KeyChar;
         }
         else
         {
             Console.WriteLine("Il n'y a pas d'emplacement vides");
+            Thread.Sleep(2000);
         }
-        select = Console.ReadKey(true).KeyChar;
     }
     public static Placement N()
     {

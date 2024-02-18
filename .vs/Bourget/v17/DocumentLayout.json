@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECF03DAD-5AC8-42D6-A8FC-B5B73B91FAF2}|Bourget\\Bourget.csproj|c:\\users\\administrator\\dev\\c#\\ginestieretp1\\bourget\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECF03DAD-5AC8-42D6-A8FC-B5B73B91FAF2}|Bourget\\Bourget.csproj|solutionrelative:bourget\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECF03DAD-5AC8-42D6-A8FC-B5B73B91FAF2}|Bourget\\Bourget.csproj|c:\\users\\administrator\\dev\\c#\\ginestieretp1\\bourget\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF03DAD-5AC8-42D6-A8FC-B5B73B91FAF2}|Bourget\\Bourget.csproj|solutionrelative:bourget\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECF03DAD-5AC8-42D6-A8FC-B5B73B91FAF2}|Bourget\\Bourget.csproj|c:\\users\\administrator\\dev\\c#\\ginestieretp1\\bourget\\placment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECF03DAD-5AC8-42D6-A8FC-B5B73B91FAF2}|Bourget\\Bourget.csproj|solutionrelative:bourget\\placment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF03DAD-5AC8-42D6-A8FC-B5B73B91FAF2}|Bourget\\Bourget.csproj|c:\\users\\administrator\\dev\\c#\\ginestieretp1\\bourget\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF03DAD-5AC8-42D6-A8FC-B5B73B91FAF2}|Bourget\\Bourget.csproj|solutionrelative:bourget\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF03DAD-5AC8-42D6-A8FC-B5B73B91FAF2}|Bourget\\Bourget.csproj|c:\\users\\administrator\\dev\\c#\\ginestieretp1\\bourget\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF03DAD-5AC8-42D6-A8FC-B5B73B91FAF2}|Bourget\\Bourget.csproj|solutionrelative:bourget\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,26 +30,52 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Program.cs",
+              "RelativeDocumentMoniker": "Bourget\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Program.cs",
+              "RelativeToolTip": "Bourget\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T17:50:32.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Contact.cs",
+              "RelativeDocumentMoniker": "Bourget\\Contact.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Contact.cs",
+              "RelativeToolTip": "Bourget\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T17:38:02.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Placment.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Placment.cs",
               "RelativeDocumentMoniker": "Bourget\\Placment.cs",
               "ToolTip": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Placment.cs",
               "RelativeToolTip": "Bourget\\Placment.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwDgAAAAeAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwEIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-16T23:26:53.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Company.cs",
               "RelativeDocumentMoniker": "Bourget\\Company.cs",
               "ToolTip": "C:\\Users\\Administrator\\Dev\\C#\\GinestiereTP1\\Bourget\\Company.cs",
               "RelativeToolTip": "Bourget\\Company.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAswDgAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-16T23:23:56.705Z",
               "EditorCaption": ""
