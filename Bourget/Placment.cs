@@ -26,7 +26,7 @@ public class Placement{
             Console.Clear();
             Console.WriteLine("Emplacement");
             Console.WriteLine("1 - Lister/Modifier les emplacments libres");
-            Console.WriteLine("2 - Créer un nouvel emplacement");
+            Console.WriteLine("2 - Crï¿½er un nouvel emplacement");
 
             select = Console.ReadKey(true).KeyChar;
 
@@ -57,7 +57,7 @@ public class Placement{
             foreach (Placement P in Program.EmptyPlacements)
             {
                 Console.WriteLine("----------------------------------------");
-                Console.WriteLine(P.hall + "\t" + P.parcel + "\t" + P.surface + " m²");
+                Console.WriteLine(P.hall + "\t" + P.parcel + "\t" + P.surface + " mï¿½");
             }
         select = Console.ReadKey(true).KeyChar;
         }
@@ -69,9 +69,9 @@ public class Placement{
     }
     public static Placement N()
     {
-        Console.Write("Création d'un nouvel emplacement\nHall:");
+        Console.Write("CrÃ©ation d'un nouvel emplacement\nHall:");
         string H = Console.ReadLine() ?? "";
-        Console.Write("N° d'emplacement:");
+        Console.Write("NÂ° d'emplacement:");
         string N = Console.ReadLine() ?? "";
         Console.Write("Surface:");
         Double S = Convert.ToDouble(Console.ReadLine() ?? "0");

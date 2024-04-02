@@ -24,7 +24,7 @@ public class Company{
         while (!MExit)
         {
             Console.Clear();
-            Console.WriteLine("Entreprises");
+            Console.WriteLine("############Entreprises############");
             Console.WriteLine("1 - Lister/Modifier les entreprises");
             Console.WriteLine("2 - Inviter une nouvelle entreprise");
 
@@ -56,22 +56,51 @@ public class Company{
         }
         else
         {
+            Console.WriteLine("SÃ©lÃ©ctioner une entreprise entre 1 et " + Program.CompaniesList.Count);
+            Console.Clear();
             Console.WriteLine("SIRET\tNom\tHall\tParcelle\tSurface");
             foreach(Company C in Program.CompaniesList)
             {
-                Console.WriteLine("-------------------------------");
-                Console.WriteLine(C.SIRET+"\t"+C.name+"\t"+C.placement.Hall +"\t"+ C.placement.Parcel+ "\t" + C.placement.Surface+" m²");
+                Console.WriteLine("-------------------------------------------------");
+                Console.WriteLine(C.SIRET+"\t"+C.name+"\t"+C.placement.Hall +"\t"+ C.placement.Parcel+ "\t" + C.placement.Surface+" mÂ²");
             }
-            select = Console.ReadKey(true).KeyChar;
+            
+            int No = Convert.ToInt32(Console.ReadLine());
+
+            if(No < 1 || No > Program.CompaniesList.Count){
+                E4:
+                Console.Clear();
+                Console.WriteLine("1 - GÃ©rer les contacts");
+                Console.WriteLine("2 - GÃ©rer l'emplacement");
+                Console.WriteLine("3 - GÃ©rer l'entreprise");
+                select = Console.ReadKey(true).KeyChar;
+
+
+                switch(select){
+                    case '1':
+                        break;
+                    case '2':
+                        break;
+                    case '3':
+                        break;
+                    default:
+                        Console.WriteLine("Commande inconue");
+                        Thread.Sleep(2000);
+                        goto E4;
+                }
+            }else{
+                Console.WriteLine("Valeur hors de la liste");
+            }
         }
     }
     private static void N() {
-        Console.Write("Création d'un nouvel emplacement vide\nSIRET: ");
+        Console.Clear();
+        Console.Write("############Novelle entreprise############\nSIRET: ");
         string S = Console.ReadLine() ?? "";
         Console.Write("Nom: ");
         string N = Console.ReadLine() ?? "";
         if(Program.EmptyPlacements.Count != 0) {
-            Console.WriteLine("1 - Créer un nouvel emplacement\n2 - Utiliser un emplacement libre");
+            Console.WriteLine("1 - CrÃ©er un nouvel emplacement\n2 - Utiliser un emplacement libre");
             select = Console.ReadKey(true).KeyChar;
         }
         else
@@ -90,7 +119,7 @@ public class Company{
                 break;
             case '2':
                 Placement.L();
-                Console.WriteLine("Séléctioner:");
+                Console.WriteLine("SÃ©lÃ©ctioner:");
                 int No = Convert.ToInt32(Console.ReadLine() ?? "1");
                 
                 E2:
