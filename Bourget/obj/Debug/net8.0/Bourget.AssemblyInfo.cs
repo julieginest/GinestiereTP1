@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bourget")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3218731bbb25e9f6a19f24982346db051ee6ad4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b421c74de6b5bb21233cb55e227e1fd730ac5a78")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bourget")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bourget")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
