@@ -124,3 +124,32 @@ FROM AVION
 WHERE CAPACITE * 1.1 > 250
 
 --18
+SELECT NOMPILOTE
+FROM PILOTE
+WHERE SOUNDEX(substring_index(NOMPILOTE,' ',1)) = SOUNDEX('blériaud')
+
+--19
+SELECT *
+FROM AVION
+WHERE CAPACITE >
+	1.1 * (SELECT AVG(CAPACITE)
+    FROM AVION)
+
+--20
+SELECT NOMPILOTE AS NP, (SELECT COUNT(*)
+                        FROM VOL
+                  		WHERE NUMPILOTE IN (SELECT NUMPILOTE
+                                     	   FROM PILOTE
+                                           WHERE NOMPILOTE = NP)) AS NbVol
+FROM PILOTE
+
+--21
+SELECT DISTINCT LOCALISATION AS Ville, (SELECT MAX(CAPACITE)
+                              FROM AVION
+                              WHERE LOCALISATION = Ville) As 'Capacité max'
+FROM AVION
+
+--22 FAUX
+, (SELECT MAX(CAPACITE)
+                              FROM AVION
+                              WHERE LOCALISATION = Ville) As 'Capacité max'
